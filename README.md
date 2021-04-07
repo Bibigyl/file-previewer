@@ -1,3 +1,3 @@
-##Превью pdf, doc, docx, xls, xlsx
+## Превью pdf, doc, docx, xls, xlsx
 
-###https://bibigyl.github.io/file-previewer/
+### https://bibigyl.github.io/file-previewer/
