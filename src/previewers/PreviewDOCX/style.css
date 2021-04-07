@@ -1,0 +1,44 @@
+.PreviewDOCX {
+  height: 100%;
+  position: relative;
+  background-color: dimgrey;
+  overflow-y: scroll;
+}
+.PreviewDOCX .sheet {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.PreviewDOCX * {
+  font-size: 18px;
+  font-family: 'Times New Roman';
+}
+.PreviewDOCX .buttons {
+  position: sticky;
+  top: 10px;
+  height: 0;
+}
+.PreviewDOCX .button {
+  width: 30px;
+  height: 30px;
+  margin: 5px 10px 5px auto;
+  border-radius: 100%;
+  background-color: #efefef;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.15s;
+  cursor: pointer;
+}
+.PreviewDOCX .button:hover {
+  background-color: #e4e4e4;
+  transition: 0.15s;
+}
+.PreviewDOCX img {
+  max-width: 100%;
+}
